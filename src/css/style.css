@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background: #81959e;
+    z-index: 1;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    color: #facb91;
+    line-height: 70px;
+    margin-left: 2%;
+}
+
+.navmenu{
+    margin: auto;
+    line-height: 70px;
+    font-family: 'Aboreto', cursive;
+}
+
+.logouser{
+    line-height: 90px;
+    color: #facb91;
+}
+
+.shoppingcar{
+    line-height: 90px;
+    color: #facb91;
+    margin: 0 2%;
+}
+
+.title{
+    position: fixed;
+    width: 100%;
+    top:70px;
+    height: 90px;
+    background: rgb(212, 202, 202);
+    line-height: 90px;
+    z-index: 1;
+}
+
+
+.title > h1{
+    color:#81959e;
+    font-family:'Lobster';
+    margin-left: 40%; 
+    font-size: 3rem;
+}
+
+.market{
+    background: rgb(241, 236, 236);
+}
+
+.bebidas{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 160px;
+}
+
+.card{
+    display: flex;
+}
+
+#root > div.market >div.bebidas > div:nth-child(n) > div > div.content > div.MuiCardActions-root.MuiCardActions-spacing.css-1t6e9jv-MuiCardActions-root > button{
+    margin-left: 242px;
+    margin-top: 10px;
+}
+
+#root > div.market > div > div:nth-child(n){
+    margin-top: 40px;
+}
+
+
+#root > div.market > div > div:nth-child(n){
+    margin-left: 65px;
+}
+
+.image{
+    position: relative;
+}
+
+.image:before {
+    content: url('../images/share16.png');
+    display:block;
+    width: 20px;
+    height:20px;
+    position:absolute;
+    left: 150px;
+    top: 10px;
+    filter:invert(100%) sepia(12%) saturate(7495%) hue-rotate(193deg) brightness(117%) contrast(93%);
+}
+
